@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let tmpview = BorderView()
+        tmpview.frame = CGRect(x: 10, y: 10, width: 100, height: 100)
+        tmpview.borderColor = UIColor.redColor()
+        tmpview.borderWidth = 5
+        tmpview.cornerRadius = 20
+        self.view.addSubview(tmpview)
     }
 
     override func didReceiveMemoryWarning() {

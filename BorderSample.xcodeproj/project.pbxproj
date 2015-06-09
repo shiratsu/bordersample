@@ -13,6 +13,7 @@
 		584AA3501B27176C006B5C5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584AA34F1B27176C006B5C5C /* Images.xcassets */; };
 		584AA3531B27176C006B5C5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 584AA3511B27176C006B5C5C /* LaunchScreen.xib */; };
 		584AA35F1B27176C006B5C5C /* BorderSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584AA35E1B27176C006B5C5C /* BorderSampleTests.swift */; };
+		584AA3691B2717D4006B5C5C /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584AA3681B2717D4006B5C5C /* BorderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		584AA3581B27176C006B5C5C /* BorderSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		584AA35D1B27176C006B5C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		584AA35E1B27176C006B5C5C /* BorderSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderSampleTests.swift; sourceTree = "<group>"; };
+		584AA3681B2717D4006B5C5C /* BorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				584AA34F1B27176C006B5C5C /* Images.xcassets */,
 				584AA3511B27176C006B5C5C /* LaunchScreen.xib */,
 				584AA3461B27176C006B5C5C /* Supporting Files */,
+				584AA3681B2717D4006B5C5C /* BorderView.swift */,
 			);
 			path = BorderSample;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				584AA34B1B27176C006B5C5C /* ViewController.swift in Sources */,
+				584AA3691B2717D4006B5C5C /* BorderView.swift in Sources */,
 				584AA3491B27176C006B5C5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BorderSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BorderSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
